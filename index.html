@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroTech | Reparación y Venta de Componentes Electrónicos</title>
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- HEADER & NAVEGACIÓN -->
+    <header>
+        <a href="#inicio" class="logo">
+            <img src="images/logo.png" alt="ElectroTech Logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+        </nav>
+        <div class="header-action">
+            <a href="#ubicacion" class="btn btn-primary">Cotizar Reparación</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCIÓN HERO (BIENVENIDA Y PROPUESTA DE VALOR) -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="hero-badge">⚡ Servicio Técnico Certificado en Lima</span>
+                <h1>Reparación Especializada y Venta de Componentes Electrónicos</h1>
+                <p>
+                    Recuperamos tus equipos con diagnóstico de alta precisión y microelectrónica avanzada.
+                    Contamos con amplio stock de repuestos originales y garantía en cada servicio.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#servicios" class="btn btn-primary btn-lg">Explorar Servicios</a>
+                    <a href="#productos" class="btn btn-secondary btn-lg">Ver Componentes</a>
+                </div>
+
+                <!-- Métricas de confianza -->
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <h3>+1,500</h3>
+                        <p>Equipos Reparados</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>100%</h3>
+                        <p>Repuestos Garantizados</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>24 - 48h</h3>
+                        <p>Diagnóstico Rápido</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>6 Meses</h3>
+                        <p>Garantía Escrita</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN NOSOTROS -->
+        <section class="seccion nosotros" id="nosotros">
+            <div class="seccion-encabezado">
+                <span class="seccion-etiqueta">¿Quiénes Somos?</span>
+                <h2>Sobre Nuestra Empresa</h2>
+            </div>
+            <div class="nosotros-contenedor">
+                <div class="nosotros-texto">
+                    <p class="destacado">
+                        Somos una empresa líder dedicada a la reparación integral, diagnóstico a nivel de componente y
+                        venta de repuestos electrónicos de alta fidelidad.
+                    </p>
+                    <p>
+                        Contamos con un laboratorio técnico equipado con estaciones de soldadura SMD por infrarrojo,
+                        osciloscopios digitales y personal altamente capacitado para solucionar desde fallas básicas
+                        hasta reparaciones complejas de placas base.
+                    </p>
+                    <div class="nosotros-puntos">
+                        <div class="punto-item">
+                            <span class="punto-icono">✓</span>
+                            <span>Diagnóstico preciso sin costos ocultos</span>
+                        </div>
+                        <div class="punto-item">
+                            <span class="punto-icono">✓</span>
+                            <span>Atención a particulares y soporte técnico a empresas</span>
+                        </div>
+                        <div class="punto-item">
+                            <span class="punto-icono">✓</span>
+                            <span>Taller especializado con protocolos antiestáticos</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Galería 2x2 de videos de YouTube -->
+                <div class="nosotros-galeria-videos">
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/KNbU3_h9Rnw?si=UIGNkET4XjiaQays" title="Video 1"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/bAF4ZGZPz8Q?si=L_bAwum_iTfwWhpf" title="Video 2"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/wiBhfqOUToQ?si=n53-dywp9xO7J4oC" title="Video 3"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-item">
+                        <iframe src="https://www.youtube.com/embed/GXLyhTwZLhY?si=NOFoi-jajTxoaMJj" title="Video 4"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN SERVICIOS -->
+        <section class="seccion servicios" id="servicios">
+            <div class="seccion-encabezado">
+                <span class="seccion-etiqueta">Soluciones Técnicas</span>
+                <h2>Nuestros Servicios</h2>
+                <p class="seccion-subtitulo">
+                    Mano de obra certificada con tecnología de punta para garantizar la máxima vida útil de tus equipos.
+                </p>
+            </div>
+            <div class="tarjetas-grid">
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/servicio1.webp" alt="Reparación de Laptops y Computadoras">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge">Especialidad</span>
+                        <h3>Reparación de Laptops & PC</h3>
+                        <p>Reparación de pantallas, teclados, bisagras y solución a fallas de encendido o
+                            recalentamiento.</p>
+                        <a href="#ubicacion" class="tarjeta-link">Consultar servicio →</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/servicio2.webp" alt="Mantenimiento Preventivo y Limpieza">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge">Preventivo</span>
+                        <h3>Mantenimiento & Limpieza</h3>
+                        <p>Limpieza profunda ultrasónica, cambio de pasta térmica de alto rendimiento y optimización de
+                            ventilación.</p>
+                        <a href="#ubicacion" class="tarjeta-link">Consultar servicio →</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/servicio3.webp" alt="Microelectrónica y Soldadura SMD">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge">Avanzado</span>
+                        <h3>Microelectrónica & Soldadura</h3>
+                        <p>Reballing BGA, sustitución de microcontroladores, capacitores en corto y pistas de circuito
+                            dañadas.</p>
+                        <a href="#ubicacion" class="tarjeta-link">Consultar servicio →</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/servicio4.webp" alt="Diagnóstico Electrónico de Placas">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge">Diagnóstico</span>
+                        <h3>Diagnóstico de Circuitos</h3>
+                        <p>Detección precisa de fallas eléctricas mediante diagramas esquemáticos y análisis térmico.
+                        </p>
+                        <a href="#ubicacion" class="tarjeta-link">Consultar servicio →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PRODUCTOS -->
+        <section class="seccion productos" id="productos">
+            <div class="seccion-encabezado">
+                <span class="seccion-etiqueta">Catálogo Directo</span>
+                <h2>Componentes & Repuestos</h2>
+                <p class="seccion-subtitulo">
+                    Amplio catálogo de piezas electrónicas 100% probadas y garantizadas para tus proyectos y
+                    reparaciones.
+                </p>
+            </div>
+            <div class="tarjetas-grid">
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/productos1.jpg" alt="Placas Base y Circuitos">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge producto-badge">En Stock</span>
+                        <h3>Placas & Circuitos Integrados</h3>
+                        <p>Chips de alimentación, controladores I/O, MOSFETs y circuitos integrados para diversas
+                            marcas.</p>
+                        <a href="#ubicacion" class="btn btn-sm btn-outline">Solicitar Cotización</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/productos2.webp" alt="Fuentes de Poder y Cargadores">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge producto-badge">Garantizado</span>
+                        <h3>Fuentes de Poder & Cargadores</h3>
+                        <p>Adaptadores de corriente certificados, fuentes reguladas y cargadores originales de alta
+                            eficiencia.</p>
+                        <a href="#ubicacion" class="btn btn-sm btn-outline">Solicitar Cotización</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/productos3.jpg" alt="Memorias RAM y Discos Sólidos">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge producto-badge">Alta Velocidad</span>
+                        <h3>Memorias RAM & SSD NVMe</h3>
+                        <p>Módulos de memoria DDR4/DDR5 y unidades de estado sólido de alta velocidad para repotenciar
+                            tus equipos.</p>
+                        <a href="#ubicacion" class="btn btn-sm btn-outline">Solicitar Cotización</a>
+                    </div>
+                </div>
+
+                <div class="tarjeta-card">
+                    <div class="tarjeta-imagen">
+                        <img src="images/productos4.jpg" alt="Módulos y Componentes Electrónicos">
+                    </div>
+                    <div class="tarjeta-cuerpo">
+                        <span class="tarjeta-badge producto-badge">Variedad</span>
+                        <h3>Módulos & Sensores</h3>
+                        <p>Resistencias de precisión, condensadores electrolíticos, diodos y sensores para desarrollo
+                            electrónico.</p>
+                        <a href="#ubicacion" class="btn btn-sm btn-outline">Solicitar Cotización</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN UBICACIÓN Y CONTACTO -->
+        <section class="seccion ubicacion" id="ubicacion">
+            <div class="seccion-encabezado">
+                <span class="seccion-etiqueta">Visítanos o Contáctanos</span>
+                <h2>Ubicación y Atención al Cliente</h2>
+                <p class="seccion-subtitulo">
+                    Estamos listos para recibir tu equipo y brindarte la mejor solución técnica.
+                </p>
+            </div>
+            <div class="ubicacion-contenedor">
+                <div class="ubicacion-mapa">
+                    <iframe src="https://maps.google.com/maps?q=Lima&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="ubicacion-info">
+                    <div class="info-bloque">
+                        <div class="info-icono">📍</div>
+                        <div class="info-texto">
+                            <h4>Dirección Principal</h4>
+                            <p>Av. La Marina 1509, San Miguel<br>Lima - Perú</p>
+                        </div>
+                    </div>
+                    <div class="info-bloque">
+                        <div class="info-icono">🕒</div>
+                        <div class="info-texto">
+                            <h4>Horarios de Atención</h4>
+                            <p>
+                                <strong>Lunes a Viernes:</strong> 9:00 AM - 6:00 PM<br>
+                                <strong>Sábados:</strong> 9:00 AM - 2:00 PM<br>
+                                <strong>Domingos:</strong> Cerrado
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-bloque">
+                        <div class="info-icono">📞</div>
+                        <div class="info-texto">
+                            <h4>Contacto Directo</h4>
+                            <p>Teléfono: (01) 555-0192<br>WhatsApp: +51 987 654 321</p>
+                        </div>
+                    </div>
+                    <div class="ubicacion-cta">
+                        <a href="https://wa.me/51987654321?text=Hola,%20deseo%20cotizar%20un%20servicio%20o%20componente"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                            Escríbenos por WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER CORPORATIVO -->
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-col">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="ElectroTech Logo">
+                </div>
+                <p>Especialistas en microelectrónica, diagnóstico avanzado y distribución de componentes electrónicos de
+                    máxima calidad en Lima.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Servicios Destacados</h4>
+                <ul>
+                    <li><a href="#servicios">Reparación de Placas</a></li>
+                    <li><a href="#servicios">Reballing & Soldadura SMD</a></li>
+                    <li><a href="#servicios">Mantenimiento Preventivo</a></li>
+                    <li><a href="#productos">Venta de Componentes</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Atención</h4>
+                <p>Av. La Marina 1509 - Lima, Perú</p>
+                <p>soporte@electrotech.com</p>
+                <p>(01) 555-0192</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ElectroTech. Todos los derechos reservados. | Reparaciones y venta de componentes
+                electrónicos</p>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a href="https://wa.me/51987654321?text=Hola,%20deseo%20cotizar%20un%20servicio%20o%20componente"
+        class="whatsapp-flotante" target="_blank" rel="noopener noreferrer" title="Chatea con nosotros">
+        💬
+    </a>
+</body>
+
+</html>
